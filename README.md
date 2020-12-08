@@ -2,7 +2,7 @@
 
 The goal behind this project is to predict the booking price of a new property in Airbnb Seattle if certain factors are provided. 
 
-### Data used
+### Data description
 
 The files used for this project are from the open data of Kaggle: https://www.kaggle.com/airbnb/seattle
 
@@ -12,7 +12,7 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
 
-### Data Insights
+### Data insights
 
 1. How is the price distribution among all the Airbnb Seattle properties?
 2. What are the most expensive/ cheapest neighbourhoods in Seattle?
@@ -20,6 +20,8 @@ Since the project is aimed at new properties,the reviews.csv or any review relat
 4. How is the property booking per month?
 5. Is there a peak season for Airbnb bookings?
 
-### Table of Contents
+### Related blog
+
+https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
 
 

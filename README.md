@@ -20,8 +20,8 @@ Since the project is aimed at new properties,the reviews.csv or any review relat
 4. How is the property booking per month?
 5. Is there a peak season for Airbnb bookings?
 
-### Related blog
+### Related blog and creator info
 
-https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
+Anjana Ambika: https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
 
 

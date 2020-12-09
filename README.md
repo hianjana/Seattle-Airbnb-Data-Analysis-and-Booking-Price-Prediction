@@ -2,21 +2,23 @@
 
 ### Project motivation
 
-The goal behind this project is to predict the booking price of a new property in Airbnb Seattle. 
+The goal behind this project is to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
+Along with the prediction, the code captures the below details of the historical data.
+
+1. Price overview
+2. Location overview
+3. Property type overview
+4. Booking period overview
+
+### Data insights
+
 To get a better insight of the data, the below business questions are answered.
 
-**Price overview**
 1. How is the price distribution among all the Airbnb Seattle properties?
-
-**Location overview**
-1. What are the most expensive/ cheapest neighbourhoods in Seattle?
-
-**Property type overview**
-1. Do some property types cost more than others?
-
-**Booking period overview**
-1. How is the property booking per month?
-2. Is there a peak season for Airbnb bookings?
+2. What are the most expensive/ cheapest neighbourhoods in Seattle?
+3. Do some property types cost more than others?
+4. How is the property booking per month?
+5. Is there a peak season for Airbnb bookings?
 
 ### Data description
 

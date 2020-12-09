@@ -32,19 +32,27 @@ Since the project is aimed at new properties,the reviews.csv or any review relat
 The libraries used in the project are:
 
 **For data pre-processing**
+
 ``
 import pandas as pd
+
 import numpy as np
+
 import datetime as dt
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 from scipy.stats import norm, skew
+
 from sklearn.model_selection import train_test_split
 ``
 
 **For modelling**
 ``
 from sklearn.linear_model import LinearRegression
+
 from sklearn.ensemble import RandomForestRegressor
 ``
 

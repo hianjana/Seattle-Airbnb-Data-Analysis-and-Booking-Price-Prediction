@@ -1,6 +1,19 @@
 # Seattle Airbnb Booking Price Prediction
 
-The goal behind this project is to predict the booking price of a new property in Airbnb Seattle if certain factors are provided. 
+#### Project motivation
+
+The goal behind this project is to predict the booking price of a new property in Airbnb Seattle. 
+To get a better insight of the data, the below business questions are answered.
+
+###### Price overview
+How is the price distribution among all the Airbnb Seattle properties?
+##### Location overview
+What are the most expensive/ cheapest neighbourhoods in Seattle?
+##### Property type overview
+Do some property types cost more than others?
+##### Booking period overview
+How is the property booking per month?
+Is there a peak season for Airbnb bookings?
 
 ### Data description
 
@@ -12,13 +25,32 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
 
-### Data insights
+### Dependencies
+The libraries used in the project are:
 
-1. How is the price distribution among all the Airbnb Seattle properties?
-2. What are the most expensive/ cheapest neighbourhoods in Seattle?
-3. Do some property types cost more than others?
-4. How is the property booking per month?
-5. Is there a peak season for Airbnb bookings?
+###### For data pre-processing
+pandas
+numpy
+datetime
+matplotlib.pyplot
+seaborn
+scipy.stats
+from sklearn.model_selection import train_test_split
+
+###### For modelling
+sklearn.linear_model
+sklearn.ensemble
+
+###### For model evaluation
+sklearn.metrics
+
+
+### Summary
+1. Magnolia, Queen Anne and Downtown are the most expensive neighbourhoods in Seattle for Airbnb. Delridge is the cheapest one to stay.
+2. Staying in a boat would be the costliest and staying in a dormitory will be the cheapest.
+3. January is the peak month when it comes to bookings.
+4. Summer is the peak season for bookings.
+5. Random Forest model gives the best result for this data and can be used for further predictions.
 
 ### Related blog and creator info
 

@@ -1,17 +1,17 @@
 # Seattle Airbnb Booking Price Prediction
 
-#### Project motivation
+### Project motivation
 
 The goal behind this project is to predict the booking price of a new property in Airbnb Seattle. 
 To get a better insight of the data, the below business questions are answered.
 
-###### Price overview
+**Price overview**
 How is the price distribution among all the Airbnb Seattle properties?
-##### Location overview
+**Location overview**
 What are the most expensive/ cheapest neighbourhoods in Seattle?
-##### Property type overview
+**Property type overview**
 Do some property types cost more than others?
-##### Booking period overview
+**Booking period overview**
 How is the property booking per month?
 Is there a peak season for Airbnb bookings?
 
@@ -25,23 +25,23 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
 
-### Dependencies
+## Dependencies
 The libraries used in the project are:
 
-###### For data pre-processing
+**For data pre-processing**
 pandas
 numpy
 datetime
 matplotlib.pyplot
 seaborn
 scipy.stats
-from sklearn.model_selection import train_test_split
+sklearn.model_selection
 
-###### For modelling
+**For modelling**
 sklearn.linear_model
 sklearn.ensemble
 
-###### For model evaluation
+**For model evaluation**
 sklearn.metrics
 
 

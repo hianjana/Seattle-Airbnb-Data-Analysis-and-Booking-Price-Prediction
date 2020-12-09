@@ -7,10 +7,13 @@ To get a better insight of the data, the below business questions are answered.
 
 **Price overview**
 1. How is the price distribution among all the Airbnb Seattle properties?
+
 **Location overview**
 1. What are the most expensive/ cheapest neighbourhoods in Seattle?
+
 **Property type overview**
 1. Do some property types cost more than others?
+
 **Booking period overview**
 1. How is the property booking per month?
 2. Is there a peak season for Airbnb bookings?

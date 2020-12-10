@@ -28,7 +28,7 @@ The repository contains the following files:
     ├── README.md
     ├── calendar.zip
     ├── listings.zip
-    ├── seattle airbnb.ipynb
+    ├── seattle_airbnb.ipynb
 
 The files used for this project are from the open data of Kaggle: https://www.kaggle.com/airbnb/seattle
 

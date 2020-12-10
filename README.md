@@ -25,13 +25,15 @@ The goal behind this project is get a business understanding on the data and als
 
 The repository contains the following files:
 
-
+    ├── README.md
+    ├── calendar.zip
+    ├── listings.zip
+    ├── seattle airbnb.ipynb
 
 The files used for this project are from the open data of Kaggle: https://www.kaggle.com/airbnb/seattle
 
-1) listings.csv - This contains the details of all the Aribnb Seattle proprty listings.
-2) calendar.csv - The dates against which each listings is already booked or availabe for booking.
-3) reviews.csv - The detailed reviews for each of the listing.
+1) listings.zip - This zip file contains the details of all the Aribnb Seattle proprty listings.
+2) calendar.csv - This zip file contains the dates against which each listings is already booked or availabe for booking.
 
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
 

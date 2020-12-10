@@ -40,7 +40,7 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 1) listings.zip - This zip file contains the details of all the Aribnb Seattle proprty listings.
 2) calendar.csv - This zip file contains the dates against which each listings is already booked or availabe for booking.
 
-Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
+Since the project is aimed at new properties, any review related data present in the listings dataset has not been used. Also the reviews file present in Kaggle has not been used.
 
 
 ## High level data preparation steps

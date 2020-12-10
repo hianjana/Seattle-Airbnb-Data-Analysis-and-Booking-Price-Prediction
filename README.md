@@ -8,11 +8,11 @@
 - [Summary](###-summary)
 - [Related blogs and creator info](###-related-blogs-and-creator-info)
 
-### Motivation
+# Motivation
 
 The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
 
-### Business Understanding
+# Business Understanding
 
 Apart from predicting the booking price of a new property, the project explores the below areas:
 
@@ -37,7 +37,7 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
 
 
-### Data Preparation:
+# Data Preparation:
 
 These are the high-level steps taken for data cleaning:
 1. Remove data that doesn’t vary (drop columns with the same value).
@@ -48,14 +48,14 @@ These are the high-level steps taken for data cleaning:
    with heavy text are dropped, and also url information are not required).
 
 
-### Summary
+# Summary
 1. Magnolia, Queen Anne and Downtown are the most expensive neighbourhoods in Seattle for Airbnb. Delridge is the cheapest one to stay.
 2. Staying in a boat would be the costliest and staying in a dormitory will be the cheapest.
 3. January is the peak month when it comes to bookings.
 4. Summer is the peak season for bookings.
 5. Random Forest model gives the best result for this data and can be used for further predictions.
 
-### Related blogs and creator info
+# Related blogs and creator info
 
 Anjana Ambika
 

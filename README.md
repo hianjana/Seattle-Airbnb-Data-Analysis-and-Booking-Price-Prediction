@@ -1,12 +1,12 @@
 # Seattle Airbnb Booking Price Prediction
 
 ## Table of Contents
-- [Motivation](#-motivation)
-- [Business Understanding](#-business-understanding)
-- [Data Understanding](#-data-understanding)
-- [Data Preparation](#-data-preparation)
-- [Summary](#-summary)
-- [Related blogs and creator info](#-related-blogs-and-creator-info)
+- [Motivation](###-motivation)
+- [Business Understanding](###-business-understanding)
+- [Data Understanding](###-data-understanding)
+- [Data Preparation](###-data-preparation)
+- [Summary](###-summary)
+- [Related blogs and creator info](###-related-blogs-and-creator-info)
 
 ### Motivation
 

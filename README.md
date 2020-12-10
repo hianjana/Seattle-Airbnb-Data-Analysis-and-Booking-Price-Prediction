@@ -1,26 +1,33 @@
 # Seattle Airbnb Booking Price Prediction
 
-### Project motivation
+### Table of Contents
+1. #Motivation
+2. Business Understanding
+3. Data Understanding
+4. Data Preparation
+5. Library dependencies
+6. Summary
+7. Related blogs and creator info
 
-The goal behind this project is to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
-Along with the prediction, the code captures the below details of the historical data.
+### Motivation (#Motivation)
+
+The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
+
+### Business Understanding
+
+Apart from predicting the booking price of a new property, the project explores the below areas:
 
 1. Price overview
 2. Location overview
 3. Property type overview
 4. Booking period overview
+5. Booking price prediction
 
-### Data insights
+### Data Understanding
 
-To get a better insight of the data, the below business questions are answered.
+The repository contains the following files:
 
-1. How is the price distribution among all the Airbnb Seattle properties?
-2. What are the most expensive/ cheapest neighbourhoods in Seattle?
-3. Do some property types cost more than others?
-4. How is the property booking per month?
-5. Is there a peak season for Airbnb bookings?
 
-### Data description
 
 The files used for this project are from the open data of Kaggle: https://www.kaggle.com/airbnb/seattle
 
@@ -29,6 +36,17 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 3) reviews.csv - The detailed reviews for each of the listing.
 
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
+
+
+### Data Preparation:
+
+These are the high-level steps taken for data cleaning:
+1. Remove data that doesn’t vary (drop columns with the same value).
+2. Remove data that are 100% unpopulated (drop columns with all null values).
+3. Replace unpopulated data with mean/ mode (Fill nulls with the mean for numerical and mode for categorical columns).
+4. Add meaningful new data using existing ones (Add new columns using some existing columns).
+5. Drop irrelevant data (Since review information is not required, all review related columns are dropped. Since text mining is not used, all columns 
+   with heavy text are dropped, and also url information are not required).
 
 ## Library dependencies
 The libraries used in the project are:
@@ -58,7 +76,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 ```
 
-
 ### Summary
 1. Magnolia, Queen Anne and Downtown are the most expensive neighbourhoods in Seattle for Airbnb. Delridge is the cheapest one to stay.
 2. Staying in a boat would be the costliest and staying in a dormitory will be the cheapest.
@@ -66,8 +83,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 4. Summer is the peak season for bookings.
 5. Random Forest model gives the best result for this data and can be used for further predictions.
 
-### Related blog and creator info
+### Related blogs and creator info
 
-Anjana Ambika: https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
+Anjana Ambika
+Technical blog: https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
+Business overview blog: https://hianjana.medium.com/making-the-best-out-of-airbnb-seattle-data-d6c7533a6286
 
 

@@ -1,7 +1,7 @@
 # Seattle Airbnb Booking Price Prediction
 
 ## Table of Contents
-- [Motivation]
+- Motivation (###motivation)
 - [Business Understanding]
 - [Data Understanding]
 - [Data Preparation]

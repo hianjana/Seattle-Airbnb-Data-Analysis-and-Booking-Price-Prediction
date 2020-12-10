@@ -1,21 +1,19 @@
 # Seattle Airbnb Booking Price Prediction
 
+This project uses the Airbnb Seattle open data available on Kaggle. The data is from April 2016 to February 2017 which is 11 months data.
+
 ## Table of Contents
 
 - [Motivation](#motivation)
-- [Business Understanding](#business-understanding)
-- [Data Understanding](#data-understanding)
-- [Data Preparation](#data-preparation)
+- [Overview of data](#overview-of-data)
+- [High level data preparation steps](#high-level-data-preparation)
+- [Modelling techniques used](#modelling-techniques-used)
 - [Summary](#summary)
 - [Related blogs and creator info](#related-blogs-and-creator-info)
 
 ## Motivation
 
-The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
-
-## Business Understanding
-
-Apart from predicting the booking price of a new property, the project explores the below areas:
+The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. Apart from predicting the booking price of a new property, the project explores the below areas:
 
 1. Price overview
 2. Location overview
@@ -23,7 +21,7 @@ Apart from predicting the booking price of a new property, the project explores 
 4. Booking period overview
 5. Booking price prediction
 
-## Data Understanding
+## Overview of data
 
 The repository contains the following files:
 
@@ -38,7 +36,7 @@ The files used for this project are from the open data of Kaggle: https://www.ka
 Since the project is aimed at new properties,the reviews.csv or any review related data present in the listings dataset has not been used. 
 
 
-## Data Preparation
+## High level data preparation steps
 
 These are the high-level steps taken for data cleaning:
 1. Remove data that doesn’t vary (drop columns with the same value).
@@ -48,6 +46,15 @@ These are the high-level steps taken for data cleaning:
 5. Drop irrelevant data (Since review information is not required, all review related columns are dropped. Since text mining is not used, all columns 
    with heavy text are dropped, and also url information are not required).
 
+## Modelling techniques used
+
+One linear model and one ensemble model are used in this project.
+- Linear Regression
+- Random Forest Regressor
+
+The models are evaluated using:
+- Mean Squared Error
+- R2 Score
 
 ## Summary
 

@@ -1,14 +1,14 @@
 # Seattle Airbnb Booking Price Prediction
 
 ## Table of Contents
-- [1. Motivation](#-motivation)
-- Business Understanding
-- Data Understanding
-- Data Preparation
-- Summary
-- Related blogs and creator info
+- [Motivation](#-motivation)
+- [Business Understanding](#-business-understanding)
+- [Data Understanding](#-data-understanding)
+- [Data Preparation](#-data-preparation)
+- [Summary](#-summary)
+- [Related blogs and creator info](#-related-blogs-and-creator-info)
 
-### Motivation 
+### Motivation(#-motivation) 
 
 The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
 

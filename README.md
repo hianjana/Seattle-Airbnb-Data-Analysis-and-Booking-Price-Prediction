@@ -58,7 +58,8 @@ These are the high-level steps taken for data cleaning:
 ### Related blogs and creator info
 
 Anjana Ambika
-Technical blog: https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
-Business overview blog: https://hianjana.medium.com/making-the-best-out-of-airbnb-seattle-data-d6c7533a6286
+
+- Technical blog: https://hianjana.medium.com/predict-the-booking-price-for-a-new-property-on-airbnb-seattle-83b772922e39 
+- Business overview blog: https://hianjana.medium.com/making-the-best-out-of-airbnb-seattle-data-d6c7533a6286
 
 

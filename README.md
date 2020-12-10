@@ -4,6 +4,7 @@ This project uses the Airbnb Seattle open data available on Kaggle. The data is 
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Motivation](#motivation)
 - [Overview of data](#overview-of-data)
 - [High level data preparation steps](#high-level-data-preparation)
@@ -11,6 +12,9 @@ This project uses the Airbnb Seattle open data available on Kaggle. The data is 
 - [Summary](#summary)
 - [Related blogs and creator info](#related-blogs-and-creator-info)
 
+## Installation
+
+To clone the repository use: ``` git clone https://github.com/hianjana/Seattle-Airbnb-Data-Analysis-and-Booking-Price-Prediction.git ```
 ## Motivation
 
 The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. Apart from predicting the booking price of a new property, the project explores the below areas:
@@ -25,6 +29,7 @@ The goal behind this project is get a business understanding on the data and als
 
 The repository contains the following files:
 
+    Seattle-Airbnb-Data-Analysis-and-Booking-Price-Prediction/
     ├── README.md
     ├── calendar.zip
     ├── listings.zip

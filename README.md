@@ -1,15 +1,14 @@
 # Seattle Airbnb Booking Price Prediction
 
-### Table of Contents
-1. #Motivation
-2. Business Understanding
-3. Data Understanding
-4. Data Preparation
-5. Library dependencies
-6. Summary
-7. Related blogs and creator info
+## Table of Contents
+### Motivation
+### Business Understanding
+### Data Understanding
+### Data Preparation
+### Summary
+### Related blogs and creator info
 
-### Motivation (#Motivation)
+### Motivation (#-motivation)
 
 The goal behind this project is get a business understanding on the data and also to predict the booking price of a new property in Airbnb Seattle. The given data is from April 2016 to February 2017 which is 11 months data.
 
@@ -48,33 +47,6 @@ These are the high-level steps taken for data cleaning:
 5. Drop irrelevant data (Since review information is not required, all review related columns are dropped. Since text mining is not used, all columns 
    with heavy text are dropped, and also url information are not required).
 
-## Library dependencies
-The libraries used in the project are:
-
-**For data pre-processing**
-
-```
-import pandas as pd
-import numpy as np
-import datetime as dt
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import norm, skew
-from sklearn.model_selection import train_test_split
-```
-
-**For modelling**
-
-```
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
-```
-
-**For model evaluation**
-
-```
-from sklearn.metrics import mean_squared_error, r2_score
-```
 
 ### Summary
 1. Magnolia, Queen Anne and Downtown are the most expensive neighbourhoods in Seattle for Airbnb. Delridge is the cheapest one to stay.
